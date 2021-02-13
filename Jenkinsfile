@@ -8,8 +8,8 @@ pipeline {
                 }
             }
             steps {
-                sh 'python --version' 
-		sh 'python train_r2_fit.py'
+                sh 'python3 --version' 
+		sh 'python3 train_r2_fit.py'
             }
         }
     }

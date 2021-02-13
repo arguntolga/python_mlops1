@@ -9,6 +9,7 @@ pipeline {
             }
             steps {
                 sh 'python --version' 
+		sh 'python train_r2_fit.py'
             }
         }
     }

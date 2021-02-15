@@ -8,8 +8,8 @@ y = numpy.random.normal(150, 40, 100) / x
 train_x = x[:80]
 train_y = y[:80]
 
-test_x = x[80:]
-test_y = y[80:]
+test_x = x[83:]
+test_y = y[83:]
 
 mymodel = numpy.poly1d(numpy.polyfit(train_x, train_y, 4))
 
